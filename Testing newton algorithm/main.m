@@ -9,7 +9,7 @@ x0 = [1.2, 1.2]';
 [x_opt, fval_opt, x_iter, f_iter, alpha] = newton_algorithm(x0,param);
 
 figure(1)
-plot_iter_rosenbrock(x_iter,str)
+plot_iter_rosenbrock(x_iter)
 disp('newton algorithm uses')
 disp(size(x_iter,2))
 disp('iterations')
